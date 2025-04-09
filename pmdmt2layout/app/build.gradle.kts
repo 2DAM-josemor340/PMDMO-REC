@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "iesmm.pmdm.pmdm_t2_layout"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "iesmm.pmdm.pmdm_t2_layout"
