@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AppUsers</string>
+    <string-array name="tipos_usuario">
+        <item>administrador</item>
+        <item>cliente</item>
+    </string-array>
+    <string name="usuario">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="acceder">Acceder</string>
+    <string name="nuevo_usuario">Nuevo usuario</string>
+    <string name="nuevo_password">Contraseña</string>
+    <string name="tipo_usuario">Tipo de usuario</string>
+    <string name="añadir">Añadir</string>
+    <string name="mostrar_usuarios">Mostrar todos los usuarios</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="fecha_hora_actual">Fecha y hora actual</string>
+</resources>

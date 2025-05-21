@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         visor = findViewById(R.id.visor);
 
-        // IDs de todos los botones que usaremos
+        //IDs de todos los botones que usaremos
         int[] ids = {
                 R.id.numero0, R.id.numero1, R.id.numero2, R.id.numero3,
                 R.id.numero4, R.id.numero5, R.id.numero6, R.id.numero7,
@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-        // Asignar el listener a todos los botones
+        //Asignar el listener a todos los botones
         for (int id : ids) {
             findViewById(id).setOnClickListener(listener);
         }
@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
     // Método para guardar la operación en la memoria interna
     private void guardarOperacion(String operacion) {
         try {
-            // Abre el archivo en modo append (agregar al final)
+            //Abre el archivo en modo append (agregar al final)
             FileOutputStream fos = openFileOutput("operaciones.txt", MODE_APPEND);
             fos.write((operacion + "\n").getBytes());
             Toast.makeText(this, "Operación guardada correctamente", Toast.LENGTH_SHORT).show();
