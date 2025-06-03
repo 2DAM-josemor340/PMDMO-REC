@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puntuación: 0"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="sans-serif-condensed" />
+
+    <TextView
+        android:id="@+id/tvEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turno: Máquina"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_below="@id/tvScore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <GridLayout
+        android:id="@+id/gridButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvEstado"
+        android:layout_centerHorizontal="true"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:alignmentMode="alignMargins"
+        android:useDefaultMargins="true">
+
+        <!-- Rojo -->
+        <Button
+            android:id="@+id/btnRojo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="16dp"
+            android:backgroundTint="#FF0000"
+            android:text="Rojo"
+            android:elevation="6dp"
+            android:shape="oval" />
+
+        <!-- Amarillo -->
+        <Button
+            android:id="@+id/btnAmarillo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="16dp"
+            android:backgroundTint="#FFFF00"
+            android:text="Amarillo"
+            android:elevation="6dp"
+            android:shape="oval" />
+
+        <!-- Azul -->
+        <Button
+            android:id="@+id/btnAzul"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="16dp"
+            android:backgroundTint="#0000FF"
+            android:text="Azul"
+            android:elevation="6dp"
+            android:shape="oval" />
+
+        <!-- Verde -->
+        <Button
+            android:id="@+id/btnVerde"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="16dp"
+            android:backgroundTint="#00FF00"
+            android:text="Verde"
+            android:elevation="6dp"
+            android:shape="oval" />
+    </GridLayout>
+</RelativeLayout>
