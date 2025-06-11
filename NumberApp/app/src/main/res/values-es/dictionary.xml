@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words">
+        <item>granja</item>
+        <item>fuego</item>
+        <item>suelo</item>
+        <item>isla</item>
+        <item>tierra</item>
+        <item>luz</item>
+        <item>luna</item>
+        <item>montaña</item>
+        <item>planta</item>
+        <item>río</item>
+        <item>mar</item>
+        <item>barco</item>
+        <item>nieve</item>
+        <item>estrella</item>
+        <item>sol</item>
+        <item>árbol</item>
+        <item>agua</item>
+        <item>viento</item>
+        <item>madera</item>
+    </string-array>
+</resources>

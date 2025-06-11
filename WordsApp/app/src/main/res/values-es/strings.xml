@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">Login</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="sign">Acceder</string>
+    <string name="word">Introduzca palabra</string>
+    <string name="search">Buscar palabra</string>
+    <string name="matches">Coincidencias</string>
+</resources>

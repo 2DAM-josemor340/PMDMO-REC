@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words">
+		<item>farm</item>
+		<item>fire</item>
+		<item>ground</item>
+		<item>island</item>
+		<item>land</item>
+		<item>light</item>
+		<item>moon</item>
+		<item>mountain</item>
+		<item>plant</item>
+		<item>river</item>
+		<item>sea</item>
+		<item>ship</item>
+		<item>snow</item>
+		<item>star</item>
+		<item>sun</item>
+		<item>tree</item>
+		<item>water</item>
+		<item>wind</item>
+		<item>wood</item>
+    </string-array>
+</resources>
